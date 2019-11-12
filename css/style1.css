@@ -666,6 +666,7 @@ section#team .align, section#contact .align {
 	font-size: 21px;
 }
 #team h2.featurette-heading {
+	
 	margin-bottom: 24px;
 }
 .teamalign {
@@ -976,6 +977,7 @@ footer p {
  font-size: 18px;
 }
  .featurette-heading {
+ font-family: 'Myriad-pro', sans-serif;
  font-size: 30px;
 }
  .featurette .lead {
