@@ -586,6 +586,26 @@ blockquote.mega .cite small {
 	/*line-height: 2; /* 24px */
 
 }
+.span3 a{
+		color: #11c24f;
+		text-decoration: none;
+}
+.span3 a:hover{
+	color: #297844;
+}
+
+iframe{
+	display: none;
+}
+
+.span3 a:hover iframe{
+	display: flex; 
+	z-index: 999px;
+	width: 200px;
+	height:500px;
+	margin: 0 auto; 
+	box-shadow: 5px 5px 10px 10px #202020;
+}
 /* News */
 section#news {
 	background: url("../img/grey-cardboard-bg.png") repeat 0 0;

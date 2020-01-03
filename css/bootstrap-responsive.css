@@ -431,10 +431,6 @@
  min-height: 1px;
  margin-left: 20px;
 }
-.cform
-{
-	width: 300px;
-}
  .container,  .navbar-static-top .container,  .navbar-fixed-top .container,  .navbar-fixed-bottom .container {
  width: 724px;
 }
@@ -999,3 +995,9 @@
  overflow: visible !important;
 }
 }
+
+@media (max-width: 480px){
+	.slider-product-content{
+		display: block;
+		align: left;
+	}
